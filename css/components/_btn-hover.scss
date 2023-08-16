@@ -1,0 +1,21 @@
+.btn-hover {
+    transition: all 0.3s ease 0s;
+}
+
+.btn-hover:hover {
+    transform: translateY(-7px);
+
+    .text-eco-b1 {
+
+        color: $eco-green1!important ;
+    }
+}
+
+.btn-hover:active {
+    transform: translateY(-1px);
+
+    .text-eco-b1 {
+
+        color: $eco-green1!important ;
+    }
+}

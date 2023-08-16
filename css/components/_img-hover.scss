@@ -1,0 +1,20 @@
+.img-hover-zoom {
+
+    overflow: hidden;
+
+
+}
+
+.img-hover-zoom--colorize .bg-img {
+    transition: transform .5s, filter .5s ease-in-out;
+    filter: brightness(100%);
+
+    overflow: hidden;
+}
+
+
+/* The Transformation */
+.img-hover-zoom--colorize:hover .bg-img {
+    filter: brightness(150%);
+    transform: scale(3);
+}
